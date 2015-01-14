@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Industrial</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function(){
+                $(".num ul li").bind("click", function(){
+                    $(".num ul li").attr("class", "num-pass");
+                    $(this).attr("class", "num-activ");
+                    var a = $(this).text();
+                    switch(a){
+                        case '1': 
+                            $(".num-content p").css("display","none");
+                            $(".num-content p[name='1']").css("display","block")
+                            break;
+                        case '2': 
+                            $(".num-content p").css("display","none");
+                            $(".num-content p[name='2']").css("display","block")
+                            break;
+                        case '3':
+                            $(".num-content p").css("display","none");
+                            $(".num-content p[name='3']").css("display","block")
+                            break;
+                        case '4': 
+                            $(".num-content p").css("display","none");
+                            $(".num-content p[name='4']").css("display","block")
+                            break; 
+                        case '5': 
+                            $(".num-content p").css("display","none");
+                            $(".num-content p[name='5']").css("display","block")
+                            break;  
+                    }
+                });
+            });
+        </script>
+        <header>
+            <div class="head-fon">
+                <div class="head content-auto">
+                    <div class="logo">
+                        <img src="images/logo.jpg" />
+                        <h1>INDUSTRIAL</h1>
+                    </div>
+                    <div class="head-search">
+                        <form action="#" method="post" >
+                            <input type="text" />
+                            <input type="submit" value="search" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="head-menu-fon">
+                <div class="head-menu content-auto">
+                    <a href="#"><img src="images/home.jpg" /></a>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">ABOUT US</a>
+                            <p>&#9650;</p>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">WHO WE ARE</a></li>
+                                <li><a href="#">LATEST NEWS</a></li>
+                                <li><a href="#">OUR MISSION</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACTS</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>  
+            <div class="nav-fon">
+                <div class="nav content-auto">
+                    <div class="nav-left">
+                        <img src="images/slide.jpg" />
+                    </div>
+                    <div class="nav-right">
+                        <div class="num">
+                            <ul>
+                                <li class="num-activ" name="1" onclick="return false"><a href="#">1</a></li>
+                                <li onclick="return false"><a href="#">2</a></li>
+                                <li onclick="return false"><a href="#">3</a></li>
+                                <li onclick="return false"><a href="#">4</a></li>
+                                <li onclick="return false"><a href="#">5</a></li>
+                            </ul>
+                        </div>
+                        <div class="num-content">
+                            <p name="1">
+                                The best <br>
+                                technology
+                            </p>
+                            <p name="2">
+                                We adhere<br>
+                                to stringent<br>
+                                quality!
+                            </p>
+                            <p name="3">
+                                Honesty,<br>
+                                commitment and <br>
+                                craftsmanship
+                            </p>
+                            <p name="4">
+                                Stability and <br>
+                                emphasis onclient<br>
+                                advocacy!
+                            </p>
+                            <p name="5">
+                                Industrial<br>
+                                and commercial<br>
+                                equipment!
+                            </p>
+                        </div>
+                        <div class="num-content-bottom">
+                            <p>
+                                Use   our   expertise   and   efficiency <br>
+                                to   create   custom   solutions   to   fit <br>
+                                your   needs   and   budget
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <content>
+        <div class="content-fon">
+            <div class="content-top content-auto">  
+                <div>
+                    <img src="images/content-top-1.jpg" />
+                    <h1>PRODUCTION</h1>
+                    <br>
+                    <p>
+                        Fusce suscipit varius cumcis <br>
+                        natoque penatibus etun magnidis<br>
+                        parturient  amet montes. Nascetur<br>
+                        ridiculus nulla duim fusce feugiat<br>
+                        alesda odio.<br>
+                        <br>
+                        Morbi nunc odio gravida cursusnec, <br>
+                        luctus lorem maece trtique acsem<br>
+                        aenan auctor ultricies. Acumsan <br>
+                        malesuada donec situmamet.<br>
+                    </p>
+                    <br>
+                    <button>more</button>
+                </div>
+
+                <div>
+                    <img src="images/content-top-2.jpg" />
+                    <h1>TECHNOLOGIES</h1>
+                    <br>
+                    <p>
+                        Fusce suscipit varius cumcis <br>
+                        natoque penatibus etun magnidis<br>
+                        parturient  amet montes. Nascetur<br>
+                        ridiculus nulla duim fusce feugiat<br>
+                        alesda odio.<br>
+                        <br>
+                        Morbi nunc odio gravida cursusnec, <br>
+                        luctus lorem maece trtique acsem<br>
+                        aenan auctor ultricies. Acumsan <br>
+                        malesuada donec situmamet.<br>
+                    </p>
+                    <br>
+                    <button>more</button>
+                </div>
+
+                <div>
+                    <img src="images/content-top-3.jpg" />
+                    <h1>MACHINERY</h1>
+                    <br>
+                    <p>
+                        Fusce suscipit varius cumcis <br>
+                        natoque penatibus etun magnidis<br>
+                        parturient  amet montes. Nascetur<br>
+                        ridiculus nulla duim fusce feugiat<br>
+                        alesda odio.<br>
+                        <br>
+                        Morbi nunc odio gravida cursusnec, <br>
+                        luctus lorem maece trtique acsem<br>
+                        aenan auctor ultricies. Acumsan <br>
+                        malesuada donec situmamet.<br>
+                    </p>
+                    <br>
+                    <button>more</button>
+                </div>
+                
+                <div>
+                    <img src="images/content-top-4.jpg" />
+                    <h1>CONSTRUCTION</h1>
+                    <br>
+                    <p>
+                        Fusce suscipit varius cumcis <br>
+                        natoque penatibus etun magnidis<br>
+                        parturient  amet montes. Nascetur<br>
+                        ridiculus nulla duim fusce feugiat<br>
+                        alesda odio.<br>
+                        <br>
+                        Morbi nunc odio gravida cursusnec, <br>
+                        luctus lorem maece trtique acsem<br>
+                        aenan auctor ultricies. Acumsan <br>
+                        malesuada donec situmamet.<br>
+                    </p>
+                    <br>
+                    <button>more</button>
+                </div>
+            </div>  
+            <div class="content-bottom content-auto">
+                <h1>INDUSTRIAL SERVICES</h1>
+                <div>
+                    <div class="content-bottom-left">
+                        <img src="images/engineering.jpg"/>
+                        <h1>Engineering</h1>
+                        <p>
+                            Fusce suscipit varius <br>
+                            cumcis natoque 
+                        </p>
+                        <img class="transparent" src="images/engineering.jpg"/>
+                    </div>
+
+                    <div class="content-bottom-center">
+                        <img src="images/leaf.jpg"/>
+                        <h1>Clean Energy</h1>
+                        <p>
+                            Fusce suscipit varius <br>
+                            cumcis natoque 
+                        </p>
+                        <img class="transparent" src="images/leaf.jpg"/>
+                    </div>
+
+                    <div class="content-bottom-right">
+                        <img src="images/planet.jpg"/>
+                        <h1>Chemicals</h1>
+                        <p>
+                            Fusce suscipit varius <br>
+                            cumcis natoque 
+                        </p>
+                        <img class="transparent" src="images/planet.jpg"/>
+                    </div>
+                </div>    
+            </div>
+        </div>    
+    </content>
+    </body>
+</html>
