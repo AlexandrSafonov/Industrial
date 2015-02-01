@@ -10,6 +10,9 @@
     font-family: angelina;
     src: url(../fonts/angelina.TTF)
 }
+body {
+    font-family: Arial;
+}
 .content-auto {
     width: 950px;
     margin: 0 auto;
@@ -119,18 +122,22 @@
 .nav-fon {
     background-color: #3a382d;
 }
+.num > ul {
+    font-size:0; /* убираем горизонтальные отступы */
+    line-height:0; /* ...и вертикальные в некоторых браузерах */
+    letter-spacing:-1px
+}
 .num ul li {
     display: inline-block;
     background-image: url(../images/slide-backg-1.jpg);
     background-repeat: no-repeat;
     width: 56px;
     height: 66px;
-    margin: 0 -4px 0 0;
     text-align: center;
 }
 .num ul li a {
     font-size: 27px;
-    padding: 12px 10px;
+    padding: 28px 10px;
     display: block;
     color: #beb9b0;
     font-family: Arial;
@@ -342,9 +349,10 @@ div .content-bottom-circles-right img {
 }
 .footer-top-fon {
     background-color: #413f33;
+    padding-bottom: 50px;
 }
 .footer-top-left {
-    padding-top: 50px;
+    width: 777px;
 }
 .footer-top-left > ul > li {
     display: inline-block;
@@ -366,5 +374,35 @@ div .content-bottom-circles-right img {
     letter-spacing: 1px;
     list-style-image: url(../images/li-bg.jpg);
     margin-left: 15px;
-    font-size: 14px;
+    font-size: 12px;
+}
+.footer-top-left,
+.footer-top-right {
+    display: inline-block;
+    padding-top: 50px;
+    vertical-align: top;
+}
+.footer-top-right {
+    padding-top: 97px;
+}
+.footer-top-right a {
+    color: #b1aeab;
+    font-size: 12px;
+    margin: 0 12px 0 0;
+}
+.footer-top-right img {
+    position: relative;
+    top: 3px;
+}
+.footer-top-right li {
+    margin-bottom: 10px;
+}
+.footer-bottom-fon {
+    background-color: #fef7e9;
+    font-size: 12px;
+    color: #413f33;
+    height: 55px;
+}
+.footer-bottom-fon p {
+    padding-top: 20px;
 }
