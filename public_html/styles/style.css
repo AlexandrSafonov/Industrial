@@ -125,7 +125,7 @@ body {
 .num > ul {
     font-size:0; /* убираем горизонтальные отступы */
     line-height:0; /* ...и вертикальные в некоторых браузерах */
-    letter-spacing:-1px
+    letter-spacing: -1px;
 }
 .num ul li {
     display: inline-block;
@@ -160,29 +160,29 @@ body {
     font-family: BEBAS;
     color: #edebe6;
 }
-.num-content p[name="1"]{
+.num-content-1{
     padding: 35px 0 0 685px;
 }
-.num-content p[name="2"]{
+.num-content-2{
     display: none;
     padding: 35px 0 0 685px;
 }
-.num-content p[name="3"]{
+.num-content-3{
     display: none;
     padding: 35px 0 0 685px;
 }
-.num-content p[name="4"]{
+.num-content-4{
     display: none;
     padding: 35px 0 0 685px;
 }
-.num-content p[name="5"]{
+.num-content-5{
     display: none;
     padding: 35px 0 0 685px;
 }
 .num-content-bottom p {
     color: #b0c2aa;
     font-family: BEBAS;
-    padding: 0 0 97px 685px;
+    padding: 0 0 94px 685px;
 }
 .content-fon {
      background-color: #fef7e9;

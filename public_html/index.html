@@ -17,23 +17,23 @@
                     switch(a){
                         case '1': 
                             $(".num-content p").css("display","none");
-                            $(".num-content p[name='1']").css("display","block");
+                            $(".num-content-1").css("display","block");
                             break;
                         case '2': 
                             $(".num-content p").css("display","none");
-                            $(".num-content p[name='2']").css("display","block");
+                            $(".num-content-2").css("display","block");
                             break;
                         case '3':
                             $(".num-content p").css("display","none");
-                            $(".num-content p[name='3']").css("display","block");
+                            $(".num-content-3").css("display","block");
                             break;
                         case '4': 
                             $(".num-content p").css("display","none");
-                            $(".num-content p[name='4']").css("display","block");
+                            $(".num-content-4").css("display","block");
                             break; 
                         case '5': 
                             $(".num-content p").css("display","none");
-                            $(".num-content p[name='5']").css("display","block");
+                            $(".num-content-5").css("display","block");
                             break;  
                     }
                 });
@@ -41,9 +41,9 @@
         </script>
         <header>
             <div class="head-fon">
-                <div class="head content-auto">
+                <div class="content-auto">
                     <div class="logo">
-                        <img src="images/logo.jpg" />
+                        <img alt="logo" src="images/logo.jpg" />
                         <h1>INDUSTRIAL</h1>
                     </div>
                     <div class="head-search">
@@ -56,7 +56,7 @@
             </div>
             <div class="head-menu-fon">
                 <div class="head-menu content-auto">
-                    <a href="#"><img src="images/home.jpg" /></a>
+                    <a href="#"><img alt="home" src="images/home.jpg" /></a>
                     <ul class="menu">
                         <li>
                             <a href="#">ABOUT US</a>
@@ -76,41 +76,41 @@
                 </div>
             </div>  
             <div class="nav-fon">
-                <div class="nav content-auto">
+                <div class="content-auto">
                     <div class="nav-left">
-                        <img src="images/slide.jpg" />
+                        <img alt="slide" src="images/slide.jpg" />
                     </div>
-                    <div class="nav-right">
+                    <div>
                         <div class="num">
                             <ul>
-                                <li class="num-activ" name="1" onclick="return false"><a href="#">1</a></li>
-                                <li onclick="return false"><a href="#">2</a></li>
-                                <li onclick="return false"><a href="#">3</a></li>
-                                <li onclick="return false"><a href="#">4</a></li>
-                                <li onclick="return false"><a href="#">5</a></li>
+                                <li class="num-activ" onclick="return false"><a href="#">1</a>
+                                <li onclick="return false"><a href="#">2</a>
+                                <li onclick="return false"><a href="#">3</a>
+                                <li onclick="return false"><a href="#">4</a>
+                                <li onclick="return false"><a href="#">5</a>
                             </ul>
                         </div>
                         <div class="num-content">
-                            <p name="1">
+                            <p class="num-content-1">
                                 The best <br>
                                 technology
                             </p>
-                            <p name="2">
+                            <p class="num-content-2">
                                 We adhere<br>
                                 to stringent<br>
                                 quality!
                             </p>
-                            <p name="3">
+                            <p class="num-content-3">
                                 Honesty,<br>
                                 commitment and <br>
                                 craftsmanship
                             </p>
-                            <p name="4">
+                            <p class="num-content-4">
                                 Stability and <br>
                                 emphasis onclient<br>
                                 advocacy!
                             </p>
-                            <p name="5">
+                            <p class="num-content-5">
                                 Industrial<br>
                                 and commercial<br>
                                 equipment!
@@ -127,11 +127,10 @@
                 </div>
             </div>
         </header>
-    <content>
         <div class="content-fon">
             <div class="content-top content-auto">  
                 <div>
-                    <img src="images/content-top-1.jpg" />
+                    <img alt="content-top-1" src="images/content-top-1.jpg" />
                     <h1>PRODUCTION</h1>
                     <br>
                     <p>
@@ -151,7 +150,7 @@
                 </div>
 
                 <div>
-                    <img src="images/content-top-2.jpg" />
+                    <img alt="content-top-2" src="images/content-top-2.jpg" />
                     <h1>TECHNOLOGIES</h1>
                     <br>
                     <p>
@@ -171,7 +170,7 @@
                 </div>
 
                 <div>
-                    <img src="images/content-top-3.jpg" />
+                    <img alt="content-top-3" src="images/content-top-3.jpg" />
                     <h1>MACHINERY</h1>
                     <br>
                     <p>
@@ -191,7 +190,7 @@
                 </div>
                 
                 <div>
-                    <img src="images/content-top-4.jpg" />
+                    <img alt="content-top-4" src="images/content-top-4.jpg" />
                     <h1>CONSTRUCTION</h1>
                     <br>
                     <p>
@@ -218,33 +217,33 @@
                 
                 <div class="content-bottom-circles">
                     <div class="content-bottom-circles-left">
-                        <img src="images/engineering.jpg"/>
+                        <img alt="engineering" src="images/engineering.jpg"/>
                         <h1>Engineering</h1>
                         <p>
                             Fusce suscipit varius <br>
                             cumcis natoque 
                         </p>
-                        <img class="transparent" src="images/engineering.jpg"/>
+                        <img alt="engineering" class="transparent" src="images/engineering.jpg"/>
                     </div>
 
                     <div class="content-bottom-circles-center">
-                        <img src="images/leaf.jpg"/>
+                        <img alt="leaf" src="images/leaf.jpg"/>
                         <h1>Clean Energy</h1>
                         <p>
                             Fusce suscipit varius <br>
                             cumcis natoque 
                         </p>
-                        <img class="transparent" src="images/leaf.jpg"/>
+                        <img alt="leaf" class="transparent" src="images/leaf.jpg"/>
                     </div>
 
                     <div class="content-bottom-circles-right">
-                        <img src="images/planet.jpg"/>
+                        <img alt="planet" src="images/planet.jpg"/>
                         <h1>Chemicals</h1>
                         <p>
                             Fusce suscipit varius <br>
                             cumcis natoque 
                         </p>
-                        <img class="transparent" src="images/planet.jpg"/>
+                        <img alt="planet" class="transparent" src="images/planet.jpg"/>
                     </div>                   
                 </div>
                 
@@ -271,10 +270,9 @@
                 </div>
             </div>    
         </div>    
-    </content>
     <footer>
         <div class="footer-top-fon">
-            <div class="footer-top content-auto">
+            <div class="content-auto">
                 <div class="footer-top-left">
                     <ul>
                         <li>
@@ -316,9 +314,9 @@
                 </div> 
                 <div class="footer-top-right">
                     <ul>
-                        <li><a href="#"><img src="images/rss.jpg"/></a><a href="#">RSS Feed</a></li>
-                        <li><a href="#"><img src="images/facebook.jpg"/></a><a href="#">Visit US on Facebook</a></li>
-                        <li><a href="#"><img src="images/twitter.jpg"/></a><a href="#">Follow Us</a></li>
+                        <li><a href="#"><img alt="rss" src="images/rss.jpg"/></a><a href="#">RSS Feed</a></li>
+                        <li><a href="#"><img alt="facebook" src="images/facebook.jpg"/></a><a href="#">Visit US on Facebook</a></li>
+                        <li><a href="#"><img alt="twitter" src="images/twitter.jpg"/></a><a href="#">Follow Us</a></li>
                     </ul>
                 </div>
             </div>    
