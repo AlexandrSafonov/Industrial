@@ -46,18 +46,20 @@ body {
 .logo {
     float: left;
     margin: 25px 0 0 0;
+    width: 270px;
 }
 .head-search {
     float: right;
 }
 .logo h1 {
-    float: right;
+    float: left;
     font-size: 60px;
     color: #e54c10;
     font-family: FranchiseBold;
 }
 .logo img {
     margin: 13px 10px 0 0;
+    float: left;
 }
 .head-menu-fon {
     background-color: #e54c10;
@@ -121,6 +123,7 @@ body {
 }
 .nav-fon {
     background-color: #3a382d;
+    height: 406px;
 }
 .num > ul {
     font-size:0; /* убираем горизонтальные отступы */
@@ -160,22 +163,22 @@ body {
     font-family: BEBAS;
     color: #edebe6;
 }
-.num-content-1{
+.num-content-1 {
     padding: 35px 0 0 685px;
 }
-.num-content-2{
+.num-content-2 {
     display: none;
     padding: 35px 0 0 685px;
 }
-.num-content-3{
+.num-content-3 {
     display: none;
     padding: 35px 0 0 685px;
 }
-.num-content-4{
+.num-content-4 {
     display: none;
     padding: 35px 0 0 685px;
 }
-.num-content-5{
+.num-content-5 {
     display: none;
     padding: 35px 0 0 685px;
 }
@@ -406,3 +409,8 @@ div .content-bottom-circles-right img {
 .footer-bottom-fon p {
     padding-top: 20px;
 }
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 350px;
+    }
+} 		
