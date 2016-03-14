@@ -151,6 +151,7 @@ body {
 }
 .num .num-activ a {
     color: #333126;
+    outline: none;
 }
 .num .num-pass {
     background-image: url(../images/slide-backg-1.jpg);
